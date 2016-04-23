@@ -1,4 +1,4 @@
-# Astar-for-Unity
+# A Star Pathfinding for Unity
 
 This is an A* Pathfinder for Unity. It inlcudes 3 axis pathfinding and multi-threading.
 
