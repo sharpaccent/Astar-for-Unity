@@ -53,7 +53,9 @@ namespace GridMaster
                         node.y = y;
                         node.z = z;
                         node.worldObject = go;
-
+                        
+                         //BoxCastAll is only Unity 5.3+ remove this and it will play on all versions 5+
+                        //in theory it should play with every Unity version, but i haven't tested it
                         RaycastHit[] hits = Physics.BoxCastAll(new Vector3(posX, posY, posZ), new Vector3(1,0,1), Vector3.forward);
 
                         for (int i = 0; i < hits.Length; i++)
